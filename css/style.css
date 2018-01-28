@@ -1,0 +1,58 @@
+*, *:before, *:after {
+  box-sizing:border-box;
+}
+body {
+  background-color:#ffffff;
+  font-family:verdana;
+  font-size:16px;
+}
+nav{
+  font-size:1.25em;
+  font-weight:bolder;
+  background-color:#387CF2;
+  padding:10px;
+}
+h1{
+  font-size:1em;
+  font-weight:bold;
+  text-align:left;
+  padding:5px;
+}
+h2{
+  font-weight:bold;
+  font-size:1.25em;
+}
+th {
+  font-size:.9em;
+  font-weight:bold;
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+td{
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color:#DBD9DB;
+}
+table {
+  width:375px;
+}
+.container{
+  width:375px;
+}
+.destination{
+  font-size:.8em;
+  font-weight:bold;
+  text-align: center;
+}
+.frequency{
+  font-size:.75em;
+  color:#387CF2;
+  text-align: center;
+}
+.line{
+  color:white;
+  background-color:#387CF2;
+  padding:10px;
+  text-align: center;
+}
