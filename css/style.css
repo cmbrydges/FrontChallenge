@@ -1,62 +1,76 @@
 *, *:before, *:after {
   box-sizing:border-box;
 }
+
 body {
-  background-color:#333;
-  font-family:sans-serif;
+  font-family:"Helvetica Neue",sans-serif;
   font-size:16px;
 }
+
 .container {
   width:375px;
   margin: 0 auto;
 }
+
 nav {
   position:fixed;
-  background-color:#387CF2;
-  width: 375px;
+  background-color:#3D86EF;
+  width:375px;
   height:50px;
-  margin-bottom: 50px;
-}
-.busline {
-  padding:15px;
-  background-color:#DBD9DB;
-  border-bottom:solid #A8A2A2 1px;
-}
-.busline:hover {
-  background-color:#ABA9AB;
+  top:0;
 }
 
-h1{
-  font-size:1em;
+h1 {
+  font-size:1.2em;
   font-weight:bold;
   padding-bottom:8px;
 }
-h2{
+
+h2 {
   color:#387CF2;
   font-weight:bold;
-  font-size:1.25em;
+  font-size:1.75em;
 }
 
-h3{
+h3 {
   font-size:.75em;
+  padding-bottom:15px;
+  color: #4A4A4A;
 }
 
-h4{
+h4 {
   margin-top:10px;
-  margin-left:40px;
+  margin-left:60px;
+  color:#ffffff;
+  font-size:1.5em;
 }
 
-h5{
-  text-align:left;
+h5 {
+  font-size:.75em;
+  float:left;
+  color:#ffffff;
+  weight:bold;
+  margin-left:5px;
 }
 
-.minutes{
+.bluebox {
+  width:40px;
+  height:20px;
+  display:block;
+  background-color:#3D86EF;
+  border-radius:5px;
+  margin-left:10px;
+}
+
+.minutes {
  font-size:.75em;
+ margin-right:30px;
+ text-align:center;
  float:right;
- padding:6px;
+ line-height:16px;
 }
 
-.busnumber{
+.busnumber {
   font-size:.75em;
   padding:5px;
   border: 1px;
@@ -65,9 +79,22 @@ h5{
 
 .content {
  line-height:1em;
- margin-left: 40px;
+ margin-left:60px;
  display:inline-block;
 }
 
-.bus-list{
+.busline {
+  width:375px;
+  display:block;
+  background-color:#f1f1f1;
+  border-radius:20px;
+  margin-bottom:10px;
+  margin-top:10px;
+}
+
+.bus-list {
+  padding-top:50px;
+}
+.redalert {
+  color:#ff0000;
 }
