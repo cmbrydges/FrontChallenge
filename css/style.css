@@ -15,10 +15,36 @@ body {
 nav {
   position:fixed;
   background-color:#3D86EF;
-  border-radius:15px;
   width:375px;
-  height:50px;
+  height:100px;
   top:0;
+}
+
+.navbar{
+  margin-left:5px;
+  margin-top:5px;
+}
+
+.arrow {
+  float:left;
+  font-size:1em;
+  margin-top:20px;
+  margin-left:20px;
+}
+
+.yellowdot{
+  float:left;
+  margin-left:20px;
+}
+
+.whiteline{
+  float:left;
+  margin-top:60px;
+}
+
+.blackdot{
+float:left;
+margin-left:20px;
 }
 
 h1 {
@@ -37,22 +63,24 @@ h2 {
 h3 {
   font-size:.9em;
   padding-bottom:15px;
-  color: #4A4A4A;
-}
-
-h4 {
-  margin-top:10px;
-  margin-left:60px;
-  color:#ffffff;
-  font-size:1.5em;
+  color:#4A4A4A;
 }
 
 h5 {
-  font-size:1em;
+  font-size:.75em;
   color:#ffffff;
-  font-weight:bold;
   text-align:center;
   padding:5px;
+  font-weight:bold;
+}
+
+h6{
+  font-size:1em;
+  color:#ffffff;
+  text-align:left;
+  margin-left:110px;
+  margin-top:20px;
+  line-height:.7;
 }
 
 .NA {
@@ -101,8 +129,13 @@ h5 {
 }
 
 .bus-list {
-  padding-top:50px;
+  padding-top:10px;
 }
+
+.busmap{
+  margin-top:20px;
+}
+
 .redalert {
   color:#ff0000;
 }
