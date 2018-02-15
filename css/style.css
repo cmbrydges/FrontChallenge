@@ -7,16 +7,16 @@ body {
   font-size:16px;
 }
 
-.container {
+.container{
   width:375px;
-  margin: 0 auto;
+  margin:0 auto;
 }
 
-nav {
+nav{
   position:fixed;
   background-color:#3D86EF;
   width:375px;
-  height:100px;
+  height:110px;
   top:0;
 }
 
@@ -25,42 +25,47 @@ nav {
   margin-top:5px;
 }
 
+.topcontent{
+  margin-top:15px;
+}
+
 .arrow {
   float:left;
   font-size:1em;
-  margin-top:20px;
+  margin-top:17px;
   margin-left:20px;
 }
 
 .yellowdot{
   float:left;
-  margin-left:20px;
-}
-
-.whiteline{
-  float:left;
-  margin-top:60px;
+  padding-right:10px;
+  padding-top:3px;
 }
 
 .blackdot{
-float:left;
-margin-left:20px;
+  float:left;
+  padding-right:10px;
+  padding-top:3px;
 }
 
-h1 {
+.whiteline{
+  padding-bottom:3px;
+}
+
+h1{
   font-size:1.2em;
   font-weight:bold;
   padding-top:18px;
   padding-bottom:6px;
 }
 
-h2 {
+h2{
   color:#387CF2;
   font-weight:bold;
   font-size:1.75em;
 }
 
-h3 {
+h3{
   font-size:.9em;
   padding-bottom:15px;
   color:#4A4A4A;
@@ -78,9 +83,8 @@ h6{
   font-size:1em;
   color:#ffffff;
   text-align:left;
-  margin-left:110px;
-  margin-top:20px;
-  line-height:.7;
+  margin-left:80px;
+  margin-top:5px;
 }
 
 .NA {
@@ -106,20 +110,20 @@ h6{
  line-height:16px;
 }
 
-.busnumber {
+.busnumber{
   font-size:.75em;
   padding:5px;
-  border: 1px;
+  border:1px;
   float:left;
 }
 
-.content {
+.content{
  line-height:1em;
  margin-left:40px;
  display:inline-block;
 }
 
-.busline {
+.busline{
   width:375px;
   display:block;
   background-color:#f1f1f1;
@@ -128,7 +132,7 @@ h6{
   margin-top:10px;
 }
 
-.bus-list {
+.bus-list{
   padding-top:10px;
 }
 
@@ -136,6 +140,6 @@ h6{
   margin-top:20px;
 }
 
-.redalert {
+.redalert{
   color:#ff0000;
 }
